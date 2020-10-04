@@ -1,0 +1,23 @@
+An object in JS has properties and things it can do (methods)
+
+PRIMITIVE TYPES
+
+-numbers
+-strings
+-Booleans
+-null
+-undefined
+-symbols
+
+REFERENCE TYPES
+
+-all types of objects
+    -object literals
+    -arrays
+    -functions
+    -dates
+
+ When we create a primitive value that value is stored on "the stack". The stack is a stack of different values in the memory and can be accessed quickly limited space
+
+ When we create a reference type that is stored on "the heap". The heap has more space available, but is slower
+ 

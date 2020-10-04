@@ -1,0 +1,11 @@
+Main building type
+
+Is an object
+"Box" with some code inside
+Only declared once can be called multiple times'
+
+Semicolon ; at the end of expressions;
+
+Function declarations are hoised, lifted up, and used first in JS
+
+Declare something first then use the code to keep things clean
