@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div class="navigasjon"></div>
+
+    <div class="vote"></div>
+
+    
+
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-firestore.js"></script>
+
+
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyDaleBNpVnMe9SqnSNpeZOdai43sQiV7y4",
+        authDomain: "udemy-modern-javascript-5e1d3.firebaseapp.com",
+        databaseURL: "https://udemy-modern-javascript-5e1d3.firebaseio.com",
+        projectId: "udemy-modern-javascript-5e1d3",
+        storageBucket: "udemy-modern-javascript-5e1d3.appspot.com",
+        messagingSenderId: "320004738126",
+        appId: "1:320004738126:web:a4c506694cf6abd933c71f",
+        measurementId: "G-R6SS3TL2H5"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.firestore();
+    firebase.analytics();
+    </script>  
+    <script src="./scripts/ui.js"></script>
+    <script src="./scripts/script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Valget 2020</title>
+</head>
+<body>
+    
+    <div class="container my-4">
+        <div class="navigasjon"></div>
+
+        <div class="container hjemmeside my-3">
+          <h1 class="text-center">Hjemmesiden</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus asperiores sit nam autem fuga deleniti ut iste eaque numquam nemo harum neque officiis doloribus saepe cupiditate, dolores natus blanditiis officia?</p>
+        </div>
+
+    <div class="container nominerside">
+        <form class="new-chat my-3">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text">Navn:</div>
+              </div>
+              <input type="text" id="message" class="form-control" required>
+              <div class="input-group-append">
+                <input type="submit" class="btn" value="send">
+              </div>
+            </div>
+          </form>
+        </div>
+    </div>
+
+
+ 
+    
+
+
+
+
+
+
+
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-firestore.js"></script>
+
+
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyDaleBNpVnMe9SqnSNpeZOdai43sQiV7y4",
+        authDomain: "udemy-modern-javascript-5e1d3.firebaseapp.com",
+        databaseURL: "https://udemy-modern-javascript-5e1d3.firebaseio.com",
+        projectId: "udemy-modern-javascript-5e1d3",
+        storageBucket: "udemy-modern-javascript-5e1d3.appspot.com",
+        messagingSenderId: "320004738126",
+        appId: "1:320004738126:web:a4c506694cf6abd933c71f",
+        measurementId: "G-R6SS3TL2H5"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.firestore();
+    firebase.analytics();
+    </script>   
+
+    <script src="./scripts/ui.js"></script>
+</body>
+</html>
